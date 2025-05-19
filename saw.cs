@@ -4,7 +4,7 @@ using System;
 public class Saw : Tool
 {
 
-    public Saw(double weight):base("Saw",weight)
+    public Saw(double weight):base("Saw",weight,"cutting")
     {
     }
 

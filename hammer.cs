@@ -2,7 +2,7 @@
 
 public class Hammer : Tool
 {
-    public Hammer(double Weight):base("Hammer", Weight)
+    public Hammer(double Weight):base("Hammer", Weight,"fastening")
     {
 
     }

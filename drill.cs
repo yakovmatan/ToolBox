@@ -4,7 +4,7 @@ using System;
 public class Drill : Tool
 {
 
-    public Drill(double weight):base("Drill",weight)
+    public Drill(double weight):base("Drill",weight,"driling")
     {
 
     }

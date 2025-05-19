@@ -4,13 +4,17 @@ public class Tool
 {
 
     public string Name { get; }
-    public double Weight;
+    public double Weight { get; }
+
+    public string ToolCategory { get; }
 
 
-    public Tool(string Name,double Weight)
+    public Tool(string Name,double Weight,string toolCategory)
     {
         this.Name = Name;
         this.Weight = Weight;
+        this.ToolCategory = toolCategory;
+
     }
 
     public virtual void Describe()

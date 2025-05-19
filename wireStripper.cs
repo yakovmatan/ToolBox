@@ -4,7 +4,7 @@ using System;
 public class WireStripper : Tool
 {
 
-    public WireStripper(double weight):base("WireStripper",weight)
+    public WireStripper(double weight):base("WireStripper",weight,"cutting")
     {
     }
 
