@@ -10,20 +10,11 @@ namespace ToolBox
     {
         static void Main(string[] args)
         {
-            List<Tool> toolBox = new List<Tool>();
-            toolBox.Add(new Drill(2.5));
-            toolBox.Add(new Drill(2.6));
-            toolBox.Add(new Hammer(4.1));
-            toolBox.Add(new Screwdriver(1.1));
-            toolBox.Add(new Saw(2.9));
-            toolBox.Add(new NailGun(2.2));
-            toolBox.Add(new WireStripper(1.2));
-
-            foreach (var tool in toolBox)
-            {
-                tool.Describe();
-                tool.Use();
-            }
+            TheToolBox tools = new TheToolBox();
+            tools.AddTool(new Drill(2.5));
+            tools.AddTool(new Drill(2.3));
+            tools.AddTool(new WireStripper(1.2));
+            tools.Summery();
         }
     }
 }
