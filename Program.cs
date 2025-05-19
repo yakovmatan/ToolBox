@@ -10,6 +10,12 @@ namespace ToolBox
     {
         static void Main(string[] args)
         {
+            List<Tool> toolBox = new List<Tool>();
+            toolBox.Add(new Drill(2.5));
+            toolBox.Add(new Drill(2.6));
+            toolBox.Add(new Hammer(4.1));
+            toolBox.Add(new Screwdriver(1.1));
+            toolBox.Add(new Saw(2.9));
         }
     }
 }
