@@ -13,13 +13,13 @@ public class Tool
         this._weight = Weight;
     }
 
-    public void Describe()
+    public virtual void Describe()
     {
         Console.WriteLine($"name of the tool is: {_name}");
         Console.WriteLine($"the weight of the tool is: {_weight}");
     }
 
-    public void Use()
+    public virtual void Use()
     {
         Console.WriteLine("Tool is being used");
     }
