@@ -3,7 +3,7 @@ using System;
 
 public class Wranch : Tool
 {
-    public Wranch(double weight):base("wranch",weight)
+    public Wranch(double weight):base("wranch",weight,"driling")
     {
     }
 

@@ -4,7 +4,7 @@ using System;
 public class PipeCutter : Tool
 {
 
-    public PipeCutter(double weight):base("PipeCutter",weight)
+    public PipeCutter(double weight):base("PipeCutter",weight,"cutting")
     {
     }
 

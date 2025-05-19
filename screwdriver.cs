@@ -4,7 +4,7 @@ using System;
 public class Screwdriver : Tool
 
 {
-    public Screwdriver(double weight):base("Scrwdriver",weight)
+    public Screwdriver(double weight):base("Scrwdriver",weight,"fastening")
     {
     }
 
