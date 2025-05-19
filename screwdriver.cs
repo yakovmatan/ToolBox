@@ -10,7 +10,7 @@ public class Screwdriver : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, perfect for driving screws. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, perfect for driving screws. Weight: {Weight} kg.");
     }
 
     public override void Use()

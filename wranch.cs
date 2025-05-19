@@ -10,7 +10,7 @@ public class Wranch : Tool
     public override void Describe()
     {
 
-        Console.WriteLine($"A {_name}, used to tighten or loosen bolts. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, used to tighten or loosen bolts. Weight: {Weight} kg.");
     }
 
     public override void Use()

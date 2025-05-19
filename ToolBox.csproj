@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="saw.cs" />
     <Compile Include="screwdriver.cs" />
+    <Compile Include="tool.cs" />
     <Compile Include="toolBox.cs" />
     <Compile Include="wireStripper.cs" />
     <Compile Include="wranch.cs" />
