@@ -3,19 +3,29 @@ using System.Collections.Generic;
 
 public class TheToolBox
 {
-    private List<Tool> tools = new List<Tool>();
+    private Dictionary<string, List<Tool>> tools = new Dictionary <string,List<Tool>>();
 
     public void AddTool(Tool tool)
     {
-        tools.Add(tool);
+        if (!tools.ContainsKey(tool.ToolCategory))
+        {
+            tools[tool.ToolCategory] = new List<Tool>();
+        }
+        tools[tool.ToolCategory].Add(tool);
     }
 
     public void Summery()
     {
-        foreach (var tool in tools)
+        foreach (var category in tools)
         {
-            Console.WriteLine(tool.Name);
-            Console.WriteLine(tool.Weight);
+            Console.WriteLine($"category: {category.Key}");
+
+            foreach (var tool in category.Value)
+            {
+                Console.WriteLine($"name: {tool.Name} weight: {tool.Weight}");
+            }
+
+            Console.WriteLine();
         }
     }
 
