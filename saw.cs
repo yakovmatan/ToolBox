@@ -10,7 +10,7 @@ public class Saw : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, used for cutting materials. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, used for cutting materials. Weight: {Weight} kg.");
     }
 
     public override void Use()

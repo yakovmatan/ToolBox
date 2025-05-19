@@ -10,7 +10,7 @@ public class NailGun : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, fires nails quickly. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, fires nails quickly. Weight: {Weight} kg.");
     }
 
 

@@ -11,7 +11,7 @@ public class WireStripper : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, used to strip insulation off wires. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, used to strip insulation off wires. Weight: {Weight} kg.");
     }
 
     public override void Use()

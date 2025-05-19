@@ -11,7 +11,7 @@ public class Drill : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, used for making holes. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, used for making holes. Weight: {Weight} kg.");
     }
 
 

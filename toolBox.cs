@@ -1,26 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class Tool
+public class TheToolBox
 {
+    private List<Tool> tools = new List<Tool>();
 
-    protected string _name;
-    protected double _weight;
-
-
-    public Tool(string Name,double Weight)
+    public void AddTool(Tool tool)
     {
-        this._name = Name;
-        this._weight = Weight;
+        tools.Add(tool);
     }
 
-    public virtual void Describe()
+    public void Summery()
     {
-        Console.WriteLine($"name of the tool is: {_name}");
-        Console.WriteLine($"the weight of the tool is: {_weight}");
+        foreach (var tool in tools)
+        {
+            Console.WriteLine(tool.Name);
+            Console.WriteLine(tool.Weight);
+        }
     }
 
-    public virtual void Use()
-    {
-        Console.WriteLine("Tool is being used");
-    }
 }

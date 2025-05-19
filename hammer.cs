@@ -9,7 +9,7 @@ public class Hammer : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, great for pounding nails. weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, great for pounding nails. weight: {Weight} kg.");
     }
 
     public override void Use()

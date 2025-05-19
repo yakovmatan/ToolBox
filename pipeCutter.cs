@@ -10,7 +10,7 @@ public class PipeCutter : Tool
 
     public override void Describe()
     {
-        Console.WriteLine($"A {_name}, used to cut pipes. Weight: {_weight} kg.");
+        Console.WriteLine($"A {Name}, used to cut pipes. Weight: {Weight} kg.");
     }
 
     public override void Use()
