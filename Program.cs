@@ -16,6 +16,8 @@ namespace ToolBox
             toolBox.Add(new Hammer(4.1));
             toolBox.Add(new Screwdriver(1.1));
             toolBox.Add(new Saw(2.9));
+            toolBox.Add(new NailGun(2.2));
+            toolBox.Add(new WireStripper(1.2));
 
             foreach (var tool in toolBox)
             {

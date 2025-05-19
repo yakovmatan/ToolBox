@@ -45,12 +45,14 @@
   <ItemGroup>
     <Compile Include="drill.cs" />
     <Compile Include="hammer.cs" />
+    <Compile Include="nailGan.cs" />
     <Compile Include="pipeCutter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="saw.cs" />
     <Compile Include="screwdriver.cs" />
     <Compile Include="toolBox.cs" />
+    <Compile Include="wireStripper.cs" />
     <Compile Include="wranch.cs" />
   </ItemGroup>
   <ItemGroup>
