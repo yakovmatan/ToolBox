@@ -2,7 +2,7 @@
 
 public class Hammer : Tool
 {
-    public Hammer(string Name, int Weight):base(Name, Weight)
+    public Hammer(double Weight):base("Hammer", Weight)
     {
 
     }

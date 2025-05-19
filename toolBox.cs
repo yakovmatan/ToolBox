@@ -4,10 +4,10 @@ public class Tool
 {
 
     protected string _name;
-    protected int _weight;
+    protected double _weight;
 
 
-    public Tool(string Name,int Weight)
+    public Tool(string Name,double Weight)
     {
         this._name = Name;
         this._weight = Weight;
